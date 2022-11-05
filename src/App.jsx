@@ -1,6 +1,6 @@
 // import { useState } from 'react'
 // import reactLogo from './assets/react.svg'
-// import './App.css'
+import "/src/App.css";
 import React from "react";
 import ReactDOM from "react-dom";
 import { Outlet, Link } from 'react-router-dom';

@@ -90,11 +90,13 @@ code {
   width: 185px;
   position: relative;
   top: 10px;
+  margin-left: 20px;
 }
 
 .footer-img {
   width: 132px;
   margin-top: 10px;
+  
 }
 
 footer {
@@ -141,11 +143,15 @@ footer {
     flex-direction: column;
     text-align: justify;
     width: 375px;
-    margin-left: 100px;
+    margin: 10px;
   }
 
   .footer-img {
     margin-top: 0;
+  }
+
+  .footer-div {
+    margin-left: 0;
   }
 
 }
