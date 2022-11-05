@@ -13,28 +13,28 @@ function ContactPage(){
             <div id="form">
                 <form>
                     <div id="name">
-                        <div id="fname">
+                        <div id="">
                             <label>First Name</label><br/>
-                            <input type="text" placeholder="Enter your first name" required/>
+                            <input type="text" placeholder="Enter your first name" id="first_name" required/>
                         </div>
                         <div id="lname">
                             <label>Last Name</label><br/>
-                            <input type="text" placeholder="Enter your last name" required/>
+                            <input type="text" placeholder="Enter your last name" id="last_name" required/>
                         </div>
                     </div>
                     <div id="mail">
                         <label>Email</label><br/>
-                        <input type="email" placeholder="yourname@email.com" required/>
+                        <input type="email" placeholder="yourname@email.com" id="email" required/>
                     </div>
                     <div id="textarea">
                         <label>Message</label><br/>
-                        <textarea type="text" placeholder="Send me a message and I'll reply you as soon as possible"></textarea>
+                        <textarea type="text" id="message" placeholder="Send me a message and I'll reply you as soon as possible"></textarea>
                     </div>
                     <div id="checkbox">
                         <input type="checkbox" id="inp-checkbox"/>
                         <label>You agree to provide your data to &#123;name&#125;  who may contact you.</label>
                     </div>
-                    <input id="button" type="button" value="Send Message" />
+                    <input id="btn__submit" type="button" value="Send Message" />
                 </form>
             </div>
 

@@ -42,19 +42,19 @@ label {
     line-height: 34px;
 }
 
-#fname > input, #lname > input { 
+#first_name, #last_name { 
     width: 348px;
     height: 40px;
     border-radius: 8px;
     border:1px solid #D0D5DD;
 }
 
-#mail > input, textarea {
+#email, #message {
     width: 720px;
     
 }
 
-#mail > input {
+#email {
     height: 40px;
     border-radius: 8px;
     border:1px solid #D0D5DD;
@@ -67,10 +67,6 @@ input[type="password"] {
     font-size: 16px;
 }
 
-input:invalid {
-    border: 1px solid #FEE4E2;
-    border-width: 3px;
-  }
 
 textarea[type="text"] {
     padding-left: 8px;
@@ -108,7 +104,7 @@ textarea {
     top: 2px;
 }
 
-#button {
+#btn__submit {
     margin-top: 20px;
     width: 720px;
     height: 48px;
@@ -145,12 +141,12 @@ textarea {
         
     }
 
-    #fname > input, #lname > input, 
-    #mail > input, textarea, #checkbox {
+    #first_name, #last_name, 
+    #email, #message, #checkbox {
         width: 343px;
     }
 
-    #button {
+    #btn__submit {
         width: 343px;
     }
     #fname, #lname, #mail, #textarea {

@@ -75,6 +75,7 @@ function LinkSection() {
       <Link
       to={`/contact`}
       // href="/contact"
+      title="This link directs you to the contact page"
       id="contact"
       type="button">
         Contact Me
