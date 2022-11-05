@@ -1,0 +1,81 @@
+#contact {
+    text-align: justify;
+    margin: auto;
+    width: 720px;
+    height: 620px;
+    color: #101828;
+}
+
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+
+#header {
+    margin-bottom: 48px;
+}
+
+#header {
+    font-size: 20px;
+    color: #475467;
+}
+
+#name {
+    display: flex;
+}
+
+#lname {
+    margin-left: 15px;
+}
+
+label {
+    color: #344054;
+    font-size: 14px;
+    line-height: 34px;
+}
+
+#fname > input, #lname > input { 
+    width: 348px;
+    height: 40px;
+    border-radius: 8px;
+    border:1px solid #D0D5DD;
+}
+
+#mail > input, textarea {
+    width: 720px;
+    
+}
+
+#mail > input {
+    height: 40px;
+    border-radius: 8px;
+    border:1px solid #D0D5DD;
+}
+
+::placeholder {
+    color: #667085;
+    padding-left: 8px;
+}
+
+textarea {
+    height: 132px;
+    border-radius: 8px;
+    border:1px solid #D0D5DD;
+}
+
+textarea::placeholder {
+    font-size: 16px;
+    line-height: 30px;
+}
+
+#checkbox > input {
+    padding-top: 2px;
+}
+
+#button {
+    margin-top: 20px;
+    width: 720px;
+    height: 48px;
+}
+
