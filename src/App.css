@@ -1,0 +1,151 @@
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+#root {
+  text-align: center;
+  margin: auto;
+}
+
+.shared__icon {
+  border: 1px dashed #D0D5DD;
+  border-radius: 10px;
+  position: absolute;
+  right: 385px;;
+  top: 40px;
+  width: 20px;
+}
+
+.shared__icon > img {
+  width: 12px;
+}
+
+#main{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+#profile__img{
+  border-radius: 275px;
+  width: 88px;
+  margin-top: 30px;
+}
+
+#slack {
+  display: none;
+}
+
+.link__sect {
+  display: flex;
+  flex-direction: column;
+  margin-top: 56px;
+}
+
+.link__sect > a{
+  width: 1152px;
+  margin: auto;
+  height: 76px;
+  border-radius: 8px;
+  margin-bottom: 8px;
+  border: 1px solid #eaecf0;
+  background-color: #eaecf0;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+  color: #101828;
+  text-align: center;
+  padding: 24px 32px;
+  box-sizing: border-box;
+}
+
+/* a {
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+  color: #101828;
+  text-align: center;
+} */
+
+.last_div > img {
+  width: 15px;
+  margin-top: 20px;
+}
+
+
+.slack {
+  margin-right: 10px;
+}
+
+.footer-div {
+  width: 185px;
+  position: relative;
+  top: 10px;
+}
+
+.footer-img {
+  width: 132px;
+  margin-top: 10px;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 64px;
+  border-top: 1px solid #eaecf0;
+  width: 1152px;
+}
+
+
+@media screen and (max-width: 480px ){
+  #root {
+      margin: 40px 30px;
+  }
+
+  .shared__icon {
+    border: 1px dashed #D0D5DD;
+    border-radius: 10px;
+    position: absolute;
+    right: 50px;
+    top: 40px;
+    width: 20px;
+  }
+
+  .shared__icon > img {
+    width: 12px;
+  }
+
+  .link__sect > a{
+    width: 343px;
+    margin: auto;
+    height: 68px;
+    margin-bottom: 8px;
+    border: 1px solid #eaecf0;
+    background-color: #eaecf0;
+    padding: 24px 32px;
+    box-sizing: border-box;
+    font-size: 14px;
+  }
+  
+  footer {
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    width: 375px;
+    margin-left: 100px;
+  }
+
+  .footer-img {
+    margin-top: 0;
+  }
+
+}
